@@ -353,6 +353,13 @@ line-height: 1.19;
      padding-top: 30px;
      padding-bottom: 30px;
  }
+ .team-soc{
+display: flex;
+ }
+ .team-soc-list{
+width: 44px;
+height: 44px;
+ }
  /* address */
  .footer {
      display: block;
