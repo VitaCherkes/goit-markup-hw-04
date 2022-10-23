@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body> 
-    <header class="header">
+  <header class="header">
     <div class="container header-container">
         <nav class="header-navigation">
         <a href="./index.html" class="logo"><span class="accent">Web</span><span class="accent-studio">Studio</span></a>
@@ -23,8 +23,12 @@
         </ul>
     </nav>
     <ul class="auth-nav">
-        <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111" class="link link-tel">+38 096 111 11 11</a></li>
+        <li><a href="mailto:info@devstudio.com" class="link">
+            <svg class="icon-header icon-mail"><use href="./images/symbol-defs — 1.svg#icon-envelope">
+            </use></svg>
+             info@devstudio.com</a></li>
+        <li><a href="tel:+380961111111" class="link link-tel"><svg class="icon-header icon-tel"><use href="./images/symbol-defs — 1.svg#icon-Vector">
+        </use></svg>+38 096 111 11 11</a></li>
     </ul>
 </div>
     </header>
@@ -39,40 +43,40 @@
       <li><button class="button-secondary" type="button">Маркетинг</button></li>
   </ul>
       <ul class="work-list">
-          <li class="project"><img src="./images/1.jpg" alt="компютер з прикладом сайту" width="370">
-       <div class="project-team"><h3 class="portfolio">Технокряк</h3><p>Веб-сайт</p></div>
+          <li class="project"><a href="" class="project-link"><img src="./images/1.jpg" alt="компютер з прикладом сайту" width="370">
+       <div class="project-team"><h3 class="portfolio">Технокряк</h3><p>Веб-сайт</p></div></a>
         </li>
-          <li class="project"><img src="./images/2.jpg" alt="постер гра в баскетбол" width="370">
+          <li class="project"><a href="" class="project-link"><img src="./images/2.jpg" alt="постер гра в баскетбол" width="370">
        <div class="project-team"><h3 class="portfolio">Постер New Orlean vs Golden Star</h3>
-        <p>Дизайн</p></div>
+        <p>Дизайн</p></div></a>
         </li>
-          <li class="project"><img src="./images/3.jpg" alt="зображення додатку ресторана" width="370">
+          <li class="project"><a href="" class="project-link"><img src="./images/3.jpg" alt="зображення додатку ресторана" width="370">
         <div class="project-team"><h3 class="portfolio">Ресторан Seafood</h3>
-          <p>Додаток</p></div>
+          <p>Додаток</p></div></a>
         </li>
-          <li class="project"><img src="./images/4.jpg" alt="чорні навушники" width="370">
+          <li class="project"><a href="" class="project-link"><img src="./images/4.jpg" alt="чорні навушники" width="370">
         <div class="project-team"><h3 class="portfolio">Проєкт Prime</h3>
-          <p>Маркетинг</p></div>
+          <p>Маркетинг</p></div></a>
         </li>
-          <li class="project"><img src="./images/5.jpg" alt="зображення книжок" width="370">
+          <li class="project"><a href="" class="project-link"><img src="./images/5.jpg" alt="зображення книжок" width="370">
         <div class="project-team"><h3 class="portfolio">Проєкт Boxes</h3>
-          <p>Додаток</p></div>
+          <p>Додаток</p></div></a>
         </li>
-          <li class="project"><img src="./images/6.jpg" alt="компютер из зображенням веб-сайту" width="370">
+          <li class="project"><a href="" class="project-link"><img src="./images/6.jpg" alt="компютер из зображенням веб-сайту" width="370">
         <div class="project-team"><h3 class="portfolio">Inspiration has no Borders</h3>
-          <p>Веб-сайт</p></div>
+          <p>Веб-сайт</p></div></a>
         </li>
-          <li class="project"><img src="./images/7.jpg" alt="розгорнута книга" width="370">
+          <li class="project"><a href="" class="project-link"><img src="./images/7.jpg" alt="розгорнута книга" width="370">
         <div class="project-team"><h3 class="portfolio">Видання Limited Edition</h3>
-          <p>Дизайн</p></div>
+          <p>Дизайн</p></div></a>
         </li>
-          <li class="project"><img src="./images/8.jpg" alt="дизайн бірки" width="370">
+          <li class="project"><a href="" class="project-link"><img src="./images/8.jpg" alt="дизайн бірки" width="370">
         <div class="project-team"><h3 class="portfolio">Проєкт LAB</h3>
-          <p>Маркетинг</p></div>
+          <p>Маркетинг</p></div></a>
         </li>
-          <li class="project"><img src="./images/9.jpg" alt="людина за компютером" width="370">
+          <li class="project"><a href="" class="project-link"><img src="./images/9.jpg" alt="людина за компютером" width="370">
         <div class="project-team"><h3 class="portfolio">Growing Business</h3>
-          <p>Додаток</p></div>
+          <p>Додаток</p></div></a>
         </li>
       </ul>
       </div>
@@ -80,6 +84,7 @@
 </main>
 <footer class="footer">
   <div class="container footer-div">
+      <div class="footer-primary">
       <a href="./index.html" class="logo logo-footer"><span class="accent accent-footer">Web</span><span class="accent-studio accent-footer">Studio</span></a>
 <address class="address">
   <ul class="footer-li">
@@ -93,6 +98,16 @@
   </ul>
 </address>
   </div>
+  <div class=" container footer-right">
+  <h2 class="section-title-footer">ПРИЄДНУЙТЕСЬ</h2>
+  <ul class="footer-soc">
+  <li class="footer-soc-list"><a href="" class="footer-soc-link"><svg class="icon-footer"><use href="./images/symbol-defs — 1.svg#icon-instagram-2"></use></svg></a></li>
+  <li class="footer-soc-list"><a href="" class="footer-soc-link"><svg class="icon-footer"><use href="./images/symbol-defs — 1.svg#icon-twitter-1"></use></svg></a></li>
+  <li class="footer-soc-list"><a href="" class="footer-soc-link"><svg class="icon-footer"><use href="./images/symbol-defs — 1.svg#icon-facebook-1"></use></svg></a></li>
+  <li class="footer-soc-list"><a href="" class="footer-soc-link"><svg class="icon-footer"><use href="./images/symbol-defs — 1.svg#icon-linkedin-1"></use></svg></a></li>
+</ul>
+  </div>
+</div>
 </footer>
 </body>
 </html>
